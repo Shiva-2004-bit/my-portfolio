@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
-import Footer from './components/Footer';
-import NotFound from './components/NotFound';
+import Footer from './Components/Footer';
+import NotFound from './Components/NotFound';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,7 +28,7 @@ function App() {
 
         <Route path="/" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Section" element={<section />} />
+        <Route path="/Section" element={<Section />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path='*' element={<NotFound />} />

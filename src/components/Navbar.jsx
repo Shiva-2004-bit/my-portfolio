@@ -9,6 +9,7 @@ function Navbar() {
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/skills">Skills</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/Section">Section</Link></li>
                 {/* <li>
                     <a href="/shiv_professional_resume.pdf" target="_blank" rel="noopener noreferrer">
                         <button className="resume-btn">Download Resume</button>
